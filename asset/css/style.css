@@ -212,18 +212,32 @@ header ul li{
   padding: 40px 0;
 }
 
+.footer-col, h2{
+  color: #718cd0;
+}
+
 .footer-col{
   height: 400px;
+  color: #fff;
 }
 
 .footer-col-40{
   width: 40%;
-  background: salmon;
 }
 
 .footer-col-15{
   width: 15%;
-  background: aquamarine;
+}
+
+.italia {
+  margin-top: 30px;
+  max-width: 10%;
+}
+
+.social i{
+  margin-right: 20px;
+  margin-top: 30px;
+  font-size: 20px;
 }
 
 /* Footer Bottom */
