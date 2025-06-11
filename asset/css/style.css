@@ -50,6 +50,15 @@ a{
   padding-bottom: 10px;
 }
 
+.pulsante-dark{
+  background-color: #8ea1e2;
+  color: #fff;
+  border-radius: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+
 .mac, .browser{
   padding: 10px;
 }
@@ -154,6 +163,24 @@ header ul li{
   color: #000;
   font-size: 20px;
   padding: 20px;
+}
+
+.pre-footer{
+  height: 900px;
+}
+
+.verticale{
+  text-align: center;
+}
+
+.img-pre-foot{
+  justify-content: center;
+  align-items: center;
+}
+
+.pre-foot-text{
+  color: #000;
+  font-size: 20px;
 }
 
 
