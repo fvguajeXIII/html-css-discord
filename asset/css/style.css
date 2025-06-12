@@ -207,58 +207,131 @@ header ul li{
 
 /* Footer */
 
-.footer-top{
-  background-color: #23272a;
-  padding: 40px 0;
-}
-
-.footer-col, h2{
-  color: #718cd0;
-}
-
-.footer-col{
-  height: 400px;
+.footer-top {
+  background: #23272a;
   color: #fff;
+  padding: 50px 0 30px 0;
+  font-size: 15px;
 }
 
-.footer-col-40{
-  width: 40%;
+.footer-top .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
-.footer-col-15{
-  width: 15%;
+.footer-col {
+  margin-bottom: 30px;
 }
 
-.italia {
-  margin-top: 30px;
-  max-width: 10%;
+.footer-col-40 {
+  flex: 0 0 30%;
+  min-width: 220px;
 }
 
-.social i{
-  margin-right: 20px;
-  margin-top: 30px;
+.footer-col-15 {
+  flex: 0 0 15%;
+  min-width: 120px;
+}
+
+.footer-col h2 {
+  color: #7289da;
   font-size: 20px;
+  margin-bottom: 18px;
 }
 
-/* Footer Bottom */
+.footer-col h4 {
+  color: #7289da;
+  font-size: 15px;
+  margin-bottom: 12px;
+  font-weight: 700;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-col ul li {
+  margin-bottom: 8px;
+}
+
+.footer-col ul li a {
+  color: #fff;
+  text-decoration: none;
+  opacity: 0.8;
+  transition: opacity 0.2s;
+}
+
+.footer-lang-social {
+  display: flex;
+  align-items: center;
+  margin-bottom: 18px;
+  gap: 10px;
+}
+
+.footer-lang-social .italia {
+  width: 18px;
+  height: 12px;
+  margin-right: 6px;
+  border-radius: 2px;
+  border: 1px solid #444;
+  vertical-align: middle;
+}
+
+.footer-lang-social span {
+  font-size: 14px;
+  margin-right: 4px;
+}
+
+.footer-lang-social {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 18px;
+  gap: 10px;
+}
+
+.footer-lang-social .social {
+  margin-left: 0;
+  margin-top: 10px;
+  display: flex;
+  gap: 12px;
+}
+
+.footer-lang-social .social a {
+  font-size: 18px;
+  color: #fff;
+  opacity: 0.7;
+  transition: opacity 0.2s;
+}
 
 .footer-bottom {
   background: #23272a;
-  padding: 10px 0;
+  border-top: 1px solid #36393f;
+  padding: 18px 0;
 }
 
 .footer-bottom-inner {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 10px 0;
-  background: aquamarine;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.footer-bottom-inner span {
-  background: #fbbecb;
-  padding: 2px 10px;
-  border: 1px dotted #000;
+.footer-logo img {
+  height: 28px;
+}
+
+.footer-register .pulsante-registrati {
+  background: #5865f2;
+  color: #fff;
+  padding: 8px 22px;
+  border-radius: 22px;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 15px;
+  transition: background 0.2s;
+  border: none;
+  outline: none;
 }
